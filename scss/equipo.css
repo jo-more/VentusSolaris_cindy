@@ -1,0 +1,105 @@
+.bottom_bnone {
+	margin-bottom: -30px;
+}
+.single_blog {
+	background:rgba(255,255,255,0.4);
+	-webkit-box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+	        box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+	margin-bottom: 30px;
+	border: 1px solid #eee;
+	height: 820px;
+	width: 370px;
+	margin-left: -30px;
+	border-radius: 0px 10px 10px 10px;
+	object-fit: cover; 
+}
+@media only screen and (max-width:768px) { 
+.single_blog {margin-bottom:30px;}
+}
+.blog_content{padding:30px;}
+.blog-img{
+	object-position: bottom; position: relative;
+display: flex;justify-content: center;
+margin-top: 30px;
+object-fit: cover; }
+.blog-img img{object-fit: cover; position: relative; border-radius: 100%; width: 200px; height: 200px;}
+@media only screen and (max-width:500px) { 
+.blog-img img{width:400%;}
+}
+.blog-img a {
+	position: absolute;
+	margin-left: 243px;
+	margin-top: 63px;
+	display: flex;
+	justify-content: center;
+	left: 8%;
+	top: 80%;
+	background: #474ff3;
+	padding: 6px 15px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 14px;
+}
+@media only screen and (max-width:768px) { 
+.blog-img a {
+	top: 5%;
+	left: 6%;
+}
+}
+.single_blog h2 {
+	line-height: 32px;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.single_blog h2 a {
+	color: #232a34;
+	font-weight: 600;
+}
+.single_blog p{margin-bottom:20px;}
+.single_blog h2 a:hover{color:#474ff3;}
+.single_blog span {
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	display: inline-block;
+	font-weight: 500;
+	margin-right: 20px;
+	color: rgba(0,0,0,0.6);
+	margin-top: 12px;
+}
+@media screen and (max-width:480px){
+.single_blog span {margin-right:15px;}
+}
+@media screen and (max-width:414px){
+.single_blog span {
+	margin-right: 5px;
+	font-size: 12px;
+}
+}
+.single_blog span a{color:#474ff3;}
+.single_blog > a{margin-bottom: 30px;}
+.blog_content a {
+	color: #474ff3;
+	font-weight: 500;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+/*START SINGLE PAGE BLOG STYLE*/
+.single_blog_page{}
+.single_blog_page img {
+	margin-bottom: 30px;
+}
+.single_blog_page p{margin-bottom: 30px;}
+.text-italic {
+	font-style: italic;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+}
+/*END SINGLE PAGE BLOG STYLE*/
+/*
+* ----------------------------------------------------------------------------------------
+* 06. END BLOG PAGE DESIGN
+* ----------------------------------------------------------------------------------------
+*/
